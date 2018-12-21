@@ -1,0 +1,99 @@
+
+
+body{
+  font-family: "Open Sans",Arial,Helvetica,sans-serif;
+}
+
+
+/* ОБЩИЕ СТИЛИ */
+li {
+  list-style: none;
+}
+
+
+
+/* ПЕРВАЯ НАВИГАЦИЯ */
+.menu a{
+  color: black;
+}
+
+a.menu_link{
+  padding-top: 20px;
+}
+
+a.logo{
+  text-align: center;
+}
+
+.dostavka{
+  text-align: right;
+}
+
+.basket{
+  text-align: right;
+  padding-top: 20px;
+}
+
+div.menu a:first-child{
+  border-right: 1.5px solid #ececec;
+}
+div.menu a:nth-child(4){
+  border-right: 1.5px solid #ececec;
+} 
+
+.navGrey{
+  background-color: #f9f9f9;
+  padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+/* БЛОК ИГРУШКИ  */
+.toys{
+  background-color: #f9f9f9;
+  /* background: url("image/Layer1.png");
+  height: 763px; */
+}
+
+.fotoToys{
+  background: url("image/toys2.jpg");
+  height: 600px;
+  background-position: center;
+}
+
+
+.title{
+  text-align: center;
+  padding-top: 90px;
+}
+
+
+
+.greenBlock{
+  color: white;
+}
+.greenBlock:first-child{
+  background-color: #63d1bb;
+  /* background: url("image/green1.png") */
+}
+.greenBlock:last-child{
+  background-color: #56c3b2;
+  /* background: url("image/green2.png");
+  height: 117px; */
+}
+
+.greenBlock img{
+  padding-left: 60%;
+}
+
+
+/* ТОВАР НЕДЕЛИ */
+
+
+
+

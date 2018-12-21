@@ -1,0 +1,419 @@
+
+.navGrey {
+  position: absolute;
+
+}
+.zig-zag {
+  background: url(image/zigzag.png);
+  position: absolute;
+  height: 25px;
+}
+
+.menu{
+  font-size: 17px;
+  white-space: nowrap; 
+  
+}
+
+.goods {
+  margin-top: 71px;
+}
+
+.zig-zag-grey {
+    padding-top: 73px;
+  
+}
+
+.carousel-control-next, .carousel-control-prev{
+  align-items: flex-end;
+}
+
+.footer {
+ 
+  background-color: #f1f1f1;
+}
+.footer-content{
+  height: 130px;
+}
+
+.map{
+  width: 525px;
+  height: 457px;
+}
+
+.adress{
+  padding-top: 81px;
+  padding-bottom: 101px;
+}
+  
+
+
+/* Медиа только для фоновой картинки */
+@media (min-width: 992px) and (max-width: 1199px){
+  .toys-back
+  {
+    max-height: 458px;
+  }
+  .navGrey{
+    max-height: 684px;
+  }
+  .zig-zag {
+    bottom: 0px;
+  }
+  .table{
+    top: -412px;
+    left: 227px;
+  }
+
+  .arrowLeft{
+    padding-left: 797px;
+    }
+    .img-search{
+      padding-left: 15px;
+    }
+
+}
+
+@media (min-width: 1200px){
+  .toys-back
+  {
+    max-height: 571px;
+  }
+  .navGrey{
+    max-height: 796px;
+  }
+  .zig-zag {
+    bottom: 0px;
+  }
+  .table{
+    top: -466px;
+    left: 256px;
+  }
+  .arrowLeft{
+    padding-left: 960px;
+    }
+    .img-search{
+      padding-left: 20px;
+    }
+}
+
+
+
+/* Медиа для desktop */
+@media (min-width: 992px){
+  a.menu_link{
+    padding-top: 20px;
+  }
+  
+  .basket{
+    padding-top: 20px;
+    text-align: right;
+  }
+  a.logo{
+    text-align: center;
+  }
+  
+  div.menu a:first-child{
+    border-right: 1.5px solid #ececec;
+  }
+  div.menu a:nth-child(4){
+    border-right: 1.5px solid #ececec;
+    border-left: 1.5px solid #ececec;
+  } 
+  .zagolovok {
+    font-size: 53px;
+    font-weight: bold;
+    bottom: -126px;
+  }
+
+  .toys{
+    background: url(image/toys.jpg);
+    min-height: 746px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -175px; 
+  }
+  .green-left{
+    max-width: 525px;
+    max-height: 119px;
+    background-color: #63d1bb;
+
+  }
+  .green-right{
+    width: 525px;
+    height: 119px;
+    background-color: #56c3b2;
+
+  }
+  .green-blocks{
+    position: relative;
+    top: -119px;
+  }
+
+  .lamp{
+    padding-top: 23px;
+  }
+
+  .toy{
+    padding-top: 23px;
+    margin-right: 36px;
+  }
+  .block-toy{
+    margin-right: 26px;;
+  }
+  .kniting{
+    font-size: 53px;
+    font-weight: bold;
+    white-space: nowrap; 
+   
+  }
+  .goods-week{
+    text-align: center;
+    margin-top: 55px;
+  }
+  .kniting p {
+    margin-top: 41px;
+  }
+  .kniting{
+    left: 65px;
+  }
+
+  .prise {
+    top: -92px;
+  }
+  .academy {
+    text-align: right;
+  }
+  .contact {
+    font-size: 53px;
+    font-weight: bold;
+  }
+
+}
+
+
+
+/* Медиа для tablet */
+@media (min-width: 768px) and (max-width: 992px){
+  .zagolovok {
+    font-size: 43px;
+    font-weight: bold;
+    bottom: -126px;
+  }
+
+  .toys-back
+  {
+    max-height: 566px;
+  }
+
+  .toys{
+    background: url(image/toys2.jpg);
+    min-height: 746px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -148px; 
+  }
+  .green-left{
+    max-width: 335px;
+    max-height: 119px;
+    background-color: #63d1bb;
+  }
+  .green-right{
+    width: 334px;
+    height: 119px;
+    background-color: #56c3b2;
+  }
+  .green-blocks{
+    position: relative;
+    top: -119px;
+  }
+  .navGrey{
+    max-height: 761px;
+  }
+  .lamp{
+    padding-top: 23px;
+    margin-right: 36px;
+  }
+  .block-lamp{
+    margin-right: 36px;;
+  }
+  .toy{
+    padding-top: 23px;
+    margin-right: 36px;
+  }
+  .block-toy{
+    margin-right: 36px;;
+  }
+  .zig-zag {
+    bottom: 0px;
+  }
+  .baskets {
+    padding-top: 72px;
+  }
+  .goods-week{
+    left: 392px;
+    top: -17px;
+  }
+  .kniting{
+    font-size: 43px;
+    font-weight: bold;
+    white-space: nowrap;
+    top: -21px;
+  }
+  .table{
+    top: -411px;
+  }
+  .prise{
+    right: 288px;
+    top: -93px;
+  }
+  .arrowLeft{
+    padding-left: 584px;
+    }
+    .academy {
+      text-align: right;
+    }
+    .logo-tablet {
+      padding-bottom: 10px;
+    }
+    .search img{
+      padding-top: 15px;
+    }
+    .img-basket{
+      padding-top: 15px;
+    }
+    .contact {
+      font-size: 43px;
+      font-weight: bold;
+    }
+}
+
+
+
+
+/* Медия для mobile */
+@media (max-width: 767px){
+  .zagolovok {
+    font-size: 27px;
+    font-weight: bold;
+    bottom: -39px;
+    }
+    .toys-back
+    {
+      max-height: 254px;
+    }
+    .toys{
+      background: url(image/toys3.jpg);
+      background-size: contain;
+      min-height: 373px;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: -119px; 
+    }
+    .sm-top{
+      height: 103px;
+      background-color: #63d1bb;
+    }
+    .sm-bottom{
+      height: 103px;
+      background-color: #56c3b2;
+    }
+    .green-block-sm{
+      position: relative;
+      top: -72px;
+    }
+    .navGrey{
+      max-height: 511px;
+    }
+    .lamp{
+      padding-top: 23px;
+    }
+    .toy{
+      padding-top: 23px;
+    }
+    .zig-zag-grey{
+      padding-top: 180px;
+    }
+    .arrowLeft{
+      padding-left: 225px;
+      }
+      .academy {
+        text-align: center;
+        border-top: 1.5px solid #e5e5e5;
+        padding-top: 15px;
+      }
+      .menu {
+        text-align: center;
+      }
+      .menu a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: 1.5px solid #e5e5e5;
+      }
+      .contact {
+        font-size: 27px;
+        font-weight: bold;
+      }
+  }
+
+
+
+/* Общие инструкции */
+/*  */
+.search{
+  border-right: 1.5px solid #ececec;
+  border-left: 1.5px solid #ececec;
+}
+
+a{
+  color: black; 
+}
+
+.logo-sm{
+  margin-left: 40%;
+  padding: 5px;
+} 
+
+
+
+
+/* MAIN */
+.navGrey{
+  background-color: #f9f9f9;
+  position: relative;
+}
+.navGrey ul{
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.nav2 {
+  border-top: 1.5px solid #ececec;
+  padding-right: 0px;
+  padding-top: 25px;
+  white-space: nowrap;
+}
+
+.dostavka{
+  text-align: right;
+}
+
+
+
+
+.prise { z-index: 3;}
+.table { z-index: 3;}
+.kniting {z-index: 2;}
+.zagolovok {z-index: 2;}
+.toys {z-index: 1;}
+.green-blocks {z-index: 2;}
+.green-block-sm {z-index: 2;}
+.zig-zag {z-index: 3;}
+.baskets {z-index: 1;}
+
+
+
+
